@@ -60,10 +60,9 @@ public class PyramidCSVDAO {
                 if(metadata[7].equals("") )metadata[7]="0";
                 
                 Pyramid p = new Pyramid(metadata[0],metadata[2],metadata[4],Double.parseDouble(metadata[7])) ;
-                
+                System.out.println("TTTTT");
                 return p;
                 
     }
-    //Test Github linking
 
 }
